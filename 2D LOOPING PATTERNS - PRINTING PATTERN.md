@@ -1,8 +1,6 @@
 # Exp.No:2d
 ## LOOPING PATTERNS - PRINTING PATTERN
-
 ---
-
 ### AIM  
 To write a Python program to print a triangular star pattern using loops.
 
@@ -25,12 +23,20 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
-
+size=int(input())
+m=(2*size)-2
+for i in range (0,size):
+    for j in range(0,m):
+        print(end=" ")
+    
+    m=m-1
+    for j in range(0,i+1):
+        print("* ",end=' ')
+    print(" ")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/74f41d49-8f31-4db9-84bf-832e5f6ef42a)
 
 ### RESULT
+Thus, a Python program to print a triangular star pattern using loops are verified.
